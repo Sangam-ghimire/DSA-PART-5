@@ -9,10 +9,4 @@ public:
     ~sorting();
 };
 
-sorting::sorting(/* args */)
-{
-}
 
-sorting::~sorting()
-{
-}
