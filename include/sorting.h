@@ -1,5 +1,8 @@
 #include <bits/stdc++.h>
+
 using namespace std;
+
+
 class sorting
 {
 private:
@@ -7,7 +10,16 @@ private:
 public:
     sorting() {}
     ~sorting() {}
-    vector<int> vect;
+    vector<int> vect1;
+    vector<int> vect2;
 
     void insertionSort();
+
+    int partition(int low , int high);
+    void quick_sorting(int low, int high);
+    void display(int high);
+
 };
+
+
+
