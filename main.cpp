@@ -16,6 +16,7 @@ int main()
     int temp, option = 0;
     int seed = time(0);
     srand(seed);
+<<<<<<< HEAD
 
     std::cout << "Choose Time"<<
     "\n1.For One lakh data "<<
@@ -26,6 +27,9 @@ int main()
     "\n6)For Five lakh data "<<
     "\n7)Enter any number 'n' for 'n' lakh data\n ->";
 
+=======
+    std::cout << "Choose an Option \n1)For One lakh data \n2)For Two lakh data \n3)For Three lakh data \n4)For Four lakh data \n5)For Six lakh data \n6)For Five lakh data \n7)Enter any number 'n' for 'n' lakh data\n ->";
+>>>>>>> 96f215a4385fe4db8b61b8fecc1aabacc3131eb7
     std::cin >> option;
 
     for (int i = 0; i < option * 100000; i++)
@@ -36,6 +40,7 @@ int main()
     }
 
 
+<<<<<<< HEAD
     // time(&start1);
     // sort.insertionSort();
     // time(&ending1);
@@ -62,4 +67,9 @@ int main()
 
 
 
+=======
+    cout << "\nTotal time required for insertionSort for " << option << " lakh data is = "
+         << difftime(ending, start)
+         << " seconds " << endl;
+>>>>>>> 96f215a4385fe4db8b61b8fecc1aabacc3131eb7
 };
